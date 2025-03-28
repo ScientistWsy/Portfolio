@@ -11,6 +11,10 @@ const GlobalStyles = createGlobalStyle`
     margin: 0px !important;
     padding: 0px !important;
     min-height: 100vh;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    //font-weight: <weight>;
+    font-style: normal;
   }
 
   /* Estiliza a barra de rolagem */

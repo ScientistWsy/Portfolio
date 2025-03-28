@@ -1,4 +1,5 @@
 import { styled } from 'styled-components'
+import { theme } from '../../styles/Theme'
 
 const Background = styled.div`
   position: fixed;
@@ -9,22 +10,7 @@ const Background = styled.div`
   margin: 0;
   padding: 0;
   
-  background: linear-gradient(135deg, 
-    rgba(1, 82, 73, 1),     
-    rgba(87, 188, 144, 1),  
-    rgba(119, 201, 212, 0.5)  
-  );
-
-  animation: moveBackground 6s linear infinite alternate; 
-
-  @keyframes moveBackground {
-    from {
-      transform: translateY(0);
-    }
-    to {
-      transform: translateY(-300vh);
-    }
-  }
+  background: ${theme.light.background};
 `
 
 export default Background

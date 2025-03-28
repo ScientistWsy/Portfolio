@@ -5,6 +5,7 @@ import PainelProfileTop from './components/PainelProfileTop';
 import Background from './components/Background';
 import Main from './components/Main';
 import GlobalStyles from './styles/globals';
+import SidePanel from './components/SidePanel';
 
 const Container = styled.div`
   position: fixed;
@@ -18,13 +19,13 @@ const Container = styled.div`
 `
 
 function App() {
-
   return (
     <>
       <GlobalStyles />
       <Background />
       <Container>
         <PainelProfileLeft>
+          <SidePanel/>
         </PainelProfileLeft>
         <Main>
           <PainelProfileTop>
