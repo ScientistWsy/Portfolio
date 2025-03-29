@@ -12,22 +12,17 @@ const PanelSection = styled.section`
 `
 
 const ContainerProfile = styled.div`
-    height: 100%;
-    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 100% 85%, 0 100%);
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 100% 85%, 0 100%);    
-    background-color: gray;
-`
-
-const Box = styled.div`
     height: 50%;
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 100% 87%, 0 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 100% 87%, 0 100%);    
+    background-color: #57BC90aa;
 `
 
 const Name = styled.h1`
     color: ${setTheme.text.primary};
     font-size: 2.5em;
     font-weight: normal;
-    margin: 20px auto 0 auto;
+    margin: 0px auto 0 auto;
 `
 
 const Professional = styled.h2`
@@ -101,10 +96,7 @@ const ContactIcon = styled.svg`
 const SidePanel = () => {
     return (
         <PanelSection>
-            <Box>
-                <ContainerProfile>1</ContainerProfile>
-            </Box>
-            <div>2</div>
+            <ContainerProfile />
             <Name>Wesley Silveira</Name>
             <Professional>Full Stack Developer</Professional>
             <SocialMedia>
