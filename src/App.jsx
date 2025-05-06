@@ -6,6 +6,7 @@ import Background from './components/Background';
 import Main from './components/Main';
 import GlobalStyles from './styles/globals';
 import SidePanel from './components/SidePanel';
+import AboutMe from './components/AboutMe';
 
 const Container = styled.div`
   position: fixed;
@@ -30,6 +31,7 @@ function App() {
         <Main>
           <PainelProfileTop>
           </PainelProfileTop>
+          <AboutMe />
         </Main>
       </Container>
     </>
