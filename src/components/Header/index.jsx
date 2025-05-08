@@ -22,7 +22,7 @@ const FirstLetter = styled.h2`
 
 const OthersLetter = styled.h2`
     color: ${theme.light.text.primary};
-    font-weight: 450;
+    font-weight: 400;
     font-size: 1.7em;
 `
 
@@ -32,8 +32,6 @@ const Header = ({ children }) => {
     const first = tittle.charAt(0);
     const others = tittle.slice(1);
 
-    console.log(tittle, first, others)
-
     return (
         <Navbar>
             <FirstLetter>{first}</FirstLetter>
@@ -41,6 +39,5 @@ const Header = ({ children }) => {
         </Navbar>
     );
 }
-
 
 export default Header
