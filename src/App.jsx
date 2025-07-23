@@ -32,6 +32,10 @@ function App() {
           <PainelProfileTop>
           </PainelProfileTop>
           <AboutMe />
+          {/* <Experience />
+          <Education />
+          <Portfolio />
+          <Skills /> */}
         </Main>
       </Container>
     </>

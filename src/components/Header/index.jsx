@@ -1,9 +1,9 @@
-import styled, { ThemeContext } from "styled-components"
+import styled from "styled-components"
 import { size } from "../../styles/Theme"
 import { theme } from "../../styles/Theme"
 
 const Navbar = styled.div`
-    height: 200px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: start;

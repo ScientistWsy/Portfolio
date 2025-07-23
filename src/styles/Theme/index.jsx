@@ -4,7 +4,7 @@ export const theme = {
         primary: '#015249',
         secondary: '#57BC90',
         color: '#77C9D4',
-        texts: '#A5A5AF',
+        texts: '#67676dff',
         background: `linear-gradient(135deg, 
                    rgba(1, 82, 73, 1), 
                    rgba(87, 188, 144, 1), 
